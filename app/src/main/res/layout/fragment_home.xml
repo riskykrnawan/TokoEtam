@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment"
+    >
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/top_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:background="@color/color_1"
+                    android:layout_marginHorizontal="0dp"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:orientation="vertical">
+                    <!-- ActionBar-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="6dp"
+                        android:paddingTop="10dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_marginHorizontal="0dp"
+                        android:background="@color/color_1"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/search"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginVertical="3dp"
+                            android:layout_weight="0.6"
+                            android:background="@drawable/border_1"
+                            android:drawableStart="@drawable/ic_search"
+                            android:drawableEnd="@drawable/ic_outline_photo_camera"
+                            android:drawableTint="@color/color_1"
+                            android:hint="Cari sesuatu..."
+                            android:inputType="textAutoCorrect"
+                            android:paddingHorizontal="10dp"
+                            android:textColor="@color/grey"
+                            android:textSize="14sp" />
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:drawableTop="@drawable/notifications_selector"
+                            android:drawableTint="@color/white"
+                            style="?android:attr/borderlessButtonStyle"
+                            />
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="24dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:drawableTop="@drawable/ic_chat_24"
+                            android:drawableTint="@color/white"
+                            android:textStyle="bold"
+                            style="?android:attr/borderlessButtonStyle"
+                            />
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:drawableTop="@drawable/ic_baseline_qr_code_scanner"
+                            android:drawableTint="@color/white"
+                            style="?android:attr/borderlessButtonStyle"
+                            />
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:drawableTop="@drawable/ic_bx_menu"
+                            android:drawableTint="@color/white"
+
+                            style="?android:attr/borderlessButtonStyle"
+                            />
+                    </LinearLayout>
+
+
+                    <!-- Image -->
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="horizontal"
+                        android:scrollbarSize="5dp"
+                        android:scrollbarStyle="insideInset"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="340dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="0dp"
+                                android:background="@drawable/banner_2" />
+
+                            <ImageView
+                                android:layout_width="350dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="0dp"
+                                android:background="@drawable/banner_3" />
+                            <ImageView
+                                android:layout_width="350dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="0dp"
+                                android:background="@drawable/banner_1" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <RelativeLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="Untuk Anda"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center_vertical"
+                            android:text="Lihat Semua"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+
+                    <!--  -->
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="horizontal"
+                        android:scrollbarSize="1dp"
+                        android:scrollbarStyle="insideInset"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            >
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_weight="0.14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:drawableTop="@drawable/ic_computer_tv_svgrepo_com"
+                                android:backgroundTint="@color/white"
+                                android:text="Teknologi"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"
+                                style="?android:attr/borderlessButtonStyle"
+                                />
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_weight="0.14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:drawableTop="@drawable/ic_shirt_svgrepo_com"
+                                android:backgroundTint="@color/white"
+                                android:text="Baju"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"
+                                style="?android:attr/borderlessButtonStyle"
+                                />
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_weight="0.14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:drawableTop="@drawable/ic_pants_svgrepo_com"
+                                android:backgroundTint="@color/white"
+                                android:text="Celana"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"
+                                style="?android:attr/borderlessButtonStyle"
+                                />
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_weight="0.14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:drawableTop="@drawable/ic_shoes_shoe_svgrepo_com"
+                                android:backgroundTint="@color/white"
+                                android:text="Sepatu"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"
+                                style="?android:attr/borderlessButtonStyle"
+                                />
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_weight="0.14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:drawableTop="@drawable/ic_game_console_svgrepo_com"
+                                android:backgroundTint="@color/white"
+                                android:text="Game"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"
+                                style="?android:attr/borderlessButtonStyle"
+                                />
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_weight="0.14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:drawableTop="@drawable/ic_livingroom_furniture_svgrepo_com"
+                                android:backgroundTint="@color/white"
+                                android:text="Furnitur"
+                                android:textColor="@color/white"
+                                android:textAllCaps="false"
+                                style="?android:attr/borderlessButtonStyle"
+                                />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+
+                    <LinearLayout
+                            android:layout_marginHorizontal="10dp"
+                            android:padding="20dp"
+                            android:background="@drawable/border_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp"
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tagihan Saya"
+                                android:textSize="17dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                >
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:gravity="center_horizontal"
+                                    >
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:layout_weight="0.14"
+                                        android:layout_width="100dp"
+                                        android:layout_height="match_parent"
+                                        android:drawableTop="@drawable/ic_outline_flash_on"
+                                        android:backgroundTint="@color/white"
+                                        android:drawableTint="@color/gold"
+                                        android:text="Listrik"
+                                        android:textAllCaps="false"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        />
+
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        style="?android:attr/borderlessButtonStyle"
+                                        android:layout_width="100dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.14"
+                                        android:backgroundTint="@color/white"
+                                        android:drawableTop="@drawable/ic_water"
+                                        android:drawableTint="#00B0FF"
+                                        android:shadowColor="@color/white"
+                                        android:text="Air"
+                                        android:textAllCaps="false" />
+
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:layout_weight="0.14"
+                                        android:layout_width="100dp"
+                                        android:layout_height="match_parent"
+                                        android:drawableTop="@drawable/ic_baseline_phone_iphone"
+                                        android:backgroundTint="@color/white"
+                                        android:drawableTint="@color/teal_700"
+                                        android:text="Pulsa &amp; Kuota Internet"
+                                        android:textAllCaps="false"
+                                        android:shadowColor="@color/white"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        />
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:layout_weight="0.14"
+                                        android:layout_width="100dp"
+                                        android:layout_height="match_parent"
+                                        android:drawableTop="@drawable/ic_baseline_school"
+                                        android:backgroundTint="@color/white"
+                                        android:drawableTint="@color/black"
+                                        android:text="Pendidikan"
+                                        android:textAllCaps="false"
+                                        android:shadowColor="@color/white"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:gravity="center_horizontal"
+                                    >
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:layout_weight="0.14"
+                                        android:layout_width="100dp"
+                                        android:layout_height="match_parent"
+                                        android:drawableTop="@drawable/ic_insurance"
+                                        android:text="Asuransi"
+                                        android:textAllCaps="false"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        />
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:layout_weight="0.14"
+                                        android:layout_width="100dp"
+                                        android:layout_height="match_parent"
+                                        android:drawableTop="@drawable/ic_bxs_credit_card"
+                                        android:backgroundTint="@color/white"
+                                        android:drawableTint="#E54A43"
+                                        android:text="Kartu Kredit"
+                                        android:textAllCaps="false"
+                                        android:shadowColor="@color/white"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        />
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:layout_weight="0.14"
+                                        android:layout_width="100dp"
+                                        android:layout_height="match_parent"
+                                        android:drawableTop="@drawable/ic_calendar"
+                                        android:text="Cicilan"
+                                        android:textAllCaps="false"
+                                        android:shadowColor="@color/white"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        />
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:layout_weight="0.14"
+                                        android:layout_width="100dp"
+                                        android:layout_height="match_parent"
+                                        android:drawableTop="@drawable/ic_bxs_grid_alt"
+                                        android:backgroundTint="@color/white"
+                                        android:drawableTint="@color/grey"
+                                        android:text="Lihat Semua"
+                                        android:textAllCaps="false"
+                                        android:shadowColor="@color/white"
+                                        style="?android:attr/borderlessButtonStyle"
+                                        />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_rcycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toko Kami"
+                    android:textSize="17dp"
+                    android:layout_margin="20dp"
+                    android:paddingHorizontal="20dp"
+                    app:layout_constraintTop_toBottomOf="@id/top_container"
+                    app:layout_constraintBottom_toTopOf="@+id/home_fragment"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/home_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_rcycler_view"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:listitem="@layout/item_cardview"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TokoEtam</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="favorite">WishList</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cari">Cari</string>
+    <string name="setting">Setting</string>
+    <string name="name">Risky Kurniawan</string>
+</resources>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.HomeFragment"
+    android:background="@color/grey_2"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            >
+
+            <RelativeLayout
+                android:id="@+id/photo"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/item_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:background="@drawable/barang_2" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatButton
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:drawableTop="@drawable/ic_left"
+                        android:drawableTint="@color/white" />
+                    <!-- ACTION BAR-->
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="0dp"
+                        android:gravity="end"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:drawableTop="@drawable/ic_search"
+                            android:drawableTint="@color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:drawableTop="@drawable/ic_outline_shopping_cart_24"
+                            android:drawableTint="@color/white" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:drawableTop="@drawable/ic_more"
+                            android:drawableTint="@color/white" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                app:layout_constraintTop_toBottomOf="@id/photo"
+                android:id="@+id/item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="10dp"
+                    android:textSize="15dp"
+                    android:text="Reel Pancing 2000-5000 Series Spinning Fishing Reel 12 + 1BB alat pancingan Fishing Reel Untuk Memancing Di Luar Ruangan for Joran" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/item_body_1"
+                app:layout_constraintTop_toBottomOf="@id/item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_toEndOf="@id/item_price"
+                        android:gravity="end">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center"
+                                android:drawableTop="@drawable/ic_baseline_share_24" />
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center"
+                                android:drawableTop="@drawable/ic_whatsapp_communication_message_interaction_network_svgrepo_com" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/item_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp"
+                        android:text="Rp.25000"
+                        android:textColor="@color/salmon"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/item_terjual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp"
+                    android:text="147 terjual"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="start"
+                    >
+                    <TextView
+                        android:id="@+id/number_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5.0"
+                        android:textSize="16sp"
+                        />
+                    <RatingBar
+                        android:layout_marginHorizontal="5dp"
+                        android:id="@+id/rating"
+                        android:paddingTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:backgroundTint="@color/gold"
+                        android:numStars="5"
+                        android:isIndicator="true" />
+                    <TextView
+                        android:id="@+id/jumlah_reviewer"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(299)"
+                        android:textSize="16sp"
+                        android:layout_marginEnd="20dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                app:layout_constraintTop_toBottomOf="@id/item_body_1"
+                android:id="@+id/item_description_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/item_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="10dp"
+                    android:textSize="15dp"
+                    android:text="There is now an exclusive tumbler that can remind you to stay hydrated.\n\n
+            ▫️ High Quality Tumbler\n
+            ▫️ UV Print \n
+            ▫️ Materiall: Doff\n
+            ▫️ Bisa tahan dingin &amp; panas (7-8 Jam)\n
+            ▫️ Volume: 450mlhigh quality tumbler\n
+            ▫️ Super Handy" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                app:layout_constraintTop_toBottomOf="@id/item_description_container"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@color/color_1">
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight=".2"
+                    android:background="@color/green_money"
+                    android:drawableTop="@drawable/ic_chat"
+                    android:drawableTint="@color/white" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight=".2"
+                    android:background="@color/green_money"
+                    android:drawableTop="@drawable/ic_outline_shopping_cart"
+                    android:drawableTint="@color/white" />
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight=".6"
+                    android:text="Beli Sekarang"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</FrameLayout>

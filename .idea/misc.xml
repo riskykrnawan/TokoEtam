@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/border_1.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/border_2.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/border_3.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/border_4.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/border_circle.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/chat_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/edit_text_border.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/home_header_border.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/home_selector.xml" value="0.323" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_account_balance_wallet.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_attach_money.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_credit_card.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_games.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_more_horiz.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_phone_iphone.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_qr_code.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_qr_code_scanner.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_school.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_star_rate.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_verified_24.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_baseline_widgets.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_credit_card.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_grid_small.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_home.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_menu.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_message_square_dots.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_money_withdraw.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_search_alt.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_store.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bx_water.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bxs_calendar.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bxs_credit_card.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bxs_grid_alt.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bxs_home.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bxs_message_square_dots.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bxs_store.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bxs_user_circle.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_bxs_wallet_36.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_chat.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_chat_24.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_computer.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_computer_tv_svgrepo_com.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_delivery_package_shipping_svgrepo_com.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_fill_chat.xml" value="0.323" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_fill_home.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_fill_notifications.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_fill_person.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_fill_shopping_cart.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_fishing.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_game_console_svgrepo_com.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_hand_money_cash_hold_svgrepo_com.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_hand_money_cash_hold_svgrepo_com_outline.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_home_filled.xml" value="0.323" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_home_svgrepo_com.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_indonesian_rupiah_indonesia_svgrepo_com.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_livingroom_furniture_svgrepo_com.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_menu.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_more.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_outline_chat.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_outline_flash_on.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_outline_home.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_outline_notifications.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_outline_person.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_outline_shopping_cart.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_outline_shopping_cart_24.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_packing_svgrepo_com.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_pants_svgrepo_com.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_search.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_shirt_svgrepo_com.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_shoe_svgrepo_com.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_shoes_shoe_svgrepo_com.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_video_game_svgrepo_com.xml" value="0.3115" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/ic_whatsapp_communication_message_interaction_network_svgrepo_com.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/notifications_selector.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/person_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/drawable/shopping_cart_selector.xml" value="0.196" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout-v23/fragment_home.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout-v23/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout/activity_detail_item.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout/activity_main.xml" value="0.3472222222222222" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout/fragment_cart.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout/fragment_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/layout/item_cardview.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/menu/action_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo-PC/AndroidStudioProjects/TokoEtam/app/src/main/res/menu/nav_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
